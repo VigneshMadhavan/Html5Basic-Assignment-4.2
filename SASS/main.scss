@@ -1,0 +1,22 @@
+$primary-color-dark:   #AFB42B;
+$primary-color:        #CDDC39;
+$primary-color-light:  #F0F4C3;
+$primary-color-text:   #212121;
+$accent-color:         #FF4081;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+body{
+	background-color: $primary-color-light;
+}
+@mixin box($col,$rad){
+	background-color: $col;
+	border-radius: $rad;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	margin: 20px;
+	align-content: center;
+	display: inline-block;
+	
+}
